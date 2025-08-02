@@ -5,7 +5,7 @@
 	<ImplicitUsings>enable</ImplicitUsings>
 	<Nullable>enable</Nullable>
 	<PackageId>Zorro.Modules.Infisical</PackageId>
-	<Version>0.0.1</Version>
+	<Version>0.1.0</Version>
 	<Authors>Artem</Authors>
 	<Authors>Hilboard</Authors>
 	<Description>Infisical module for Zorro</Description>
@@ -16,13 +16,7 @@
 
   <ItemGroup>
     <PackageReference Include="Infisical.Sdk" Version="2.3.7" />
-    <PackageReference Include="Zorro" Version="0.0.1" />
+    <PackageReference Include="Zorro" Version="0.1.6" />
   </ItemGroup>
 
-
-  <ItemGroup>
-  	<Folder Include="Properties\" />
-  	<Folder Include="Modules\" />
-	<Folder Include="Services\" />
-  </ItemGroup>
 </Project>
